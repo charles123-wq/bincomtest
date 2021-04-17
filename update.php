@@ -3,14 +3,14 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Poll */
+/* @var $model app\models\LgaWsw */
 
-$this->title = 'Update Poll: ' . $model->result_id;
-$this->params['breadcrumbs'][] = ['label' => 'Polls', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->result_id, 'url' => ['view', 'id' => $model->result_id]];
+$this->title = 'Update Lga Wsw: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Lga Wsws', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
-<div class="poll-update">
+<div class="lga-wsw-update">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
